@@ -19,28 +19,57 @@
       "plugin": "Serum",
       "preset": "Sharp_Surf_String",
       "color": "Red",
-      "role": "Hook"
+      "role": "Hook",
+      "midi_channel": 1
     },
     {
       "name": "Foundation Kick",
       "plugin": "Sampler",
       "preset": "Pop_Kick_01",
       "color": "Blue",
-      "role": "Rhythm"
+      "role": "Rhythm",
+      "midi_channel": 10
     },
     {
       "name": "Crisp Snare",
       "plugin": "Sampler",
       "preset": "Pop_Snare_01",
       "color": "Blue",
-      "role": "Rhythm"
+      "role": "Rhythm",
+      "midi_channel": 10
     },
     {
       "name": "Rubber Bass",
       "plugin": "Serum",
       "preset": "Rubber_Sub",
       "color": "Green",
-      "role": "Foundation"
+      "role": "Foundation",
+      "midi_channel": 1
     }
-  ]
+  ],
+  "midi_patterns": {
+    "Foundation Kick": [
+      { "beat": 0, "note": 36, "duration": 0.2, "velocity": 110 },
+      { "beat": 1, "note": 36, "duration": 0.2, "velocity": 100 },
+      { "beat": 2, "note": 36, "duration": 0.2, "velocity": 110 },
+      { "beat": 3, "note": 36, "duration": 0.2, "velocity": 100 }
+    ],
+    "Crisp Snare": [
+      { "beat": 1, "note": 38, "duration": 0.2, "velocity": 120 },
+      { "beat": 3, "note": 38, "duration": 0.2, "velocity": 120 }
+    ],
+    "Rubber Bass": [
+      { "beat": 0, "note": 36, "duration": 0.5, "velocity": 100 },
+      { "beat": 0.5, "note": 36, "duration": 0.2, "velocity": 80 },
+      { "beat": 1.5, "note": 36, "duration": 0.5, "velocity": 100 },
+      { "beat": 2, "note": 36, "duration": 0.2, "velocity": 80 },
+      { "beat": 3, "note": 36, "duration": 0.5, "velocity": 100 }
+    ],
+    "Tension Lead": [
+      { "beat": 0, "note": 60, "duration": 0.1, "velocity": 110 },
+      { "beat": 0.25, "note": 60, "duration": 0.1, "velocity": 110 },
+      { "beat": 0.5, "note": 63, "duration": 0.1, "velocity": 110 },
+      { "beat": 0.75, "note": 60, "duration": 0.1, "velocity": 110 }
+    ]
+  }
 }
